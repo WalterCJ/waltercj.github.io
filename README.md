@@ -1,4 +1,4 @@
-# My ghages
+# My personal-website
 
 A small site with some info about myself.
 
