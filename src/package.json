@@ -1,0 +1,23 @@
+{
+  "name": "waltercj.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss css/index.css -o ../index.css",
+    "watch": "watch \"npm run build:css\" ./css"
+  },
+  "keywords": [],
+  "author": "Walter CJ",
+  "license": "MIT",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.2",
+    "autoprefixer": "^9.7.6",
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.3.5"
+  },
+  "dependencies": {
+    "watch": "^1.0.2"
+  }
+}
