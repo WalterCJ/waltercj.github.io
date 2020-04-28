@@ -1,9 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Niramit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* purgecss start ignore */
 @tailwind base;
 @tailwind components;
 /* purgecss end ignore */
 @tailwind utilities;
-.another-one{
-    padding: 10px;
-}
