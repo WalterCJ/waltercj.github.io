@@ -659,6 +659,14 @@ video {
   clear: both;
 }
 
+.font-sans{
+  font-family: Niramit, Helvetica, Arial, sans-serif;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+}
+
 .overflow-auto{
   overflow: auto;
 }
@@ -693,4 +701,8 @@ video {
 
 .left-0{
   left: 0;
+}
+
+.text-teal-400{
+  color: #4fd1c5;
 }
