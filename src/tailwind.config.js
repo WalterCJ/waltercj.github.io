@@ -2,16 +2,15 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['Roboto', 'Helvetica', 'Arial', 'sans-serif']
+        sans: ["Roboto", "Helvetica", "Arial", "sans-serif"],
       },
       colors: {
-      'primary': '#F5F3EF',
-      'secondary': '#464240',
-      'highlight': '#E66761',
-      }
+        primary: "#212529",
+        secondary: "#191919",
+        highlight: "#add8e6",
+      },
     },
   },
   variants: {},
   plugins: [],
-}
-
+};
