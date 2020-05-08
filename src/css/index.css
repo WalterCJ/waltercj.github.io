@@ -1,6 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 /* purgecss start ignore */
 @tailwind base;
 @tailwind components;
 /* purgecss end ignore */
 @tailwind utilities;
+
+.borderMarker {
+  position: relative;
+}
+
+.borderMarker::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 75%;
+  left: -0.1px;
+  right: -0.1px;
+  bottom: 0;
+  transition: top 0.1s ease-in-out;
+  background-color: rgb(173, 216, 230, 0.5);
+}
+
+.borderMarker:hover::after {
+  top: 0;
+}
